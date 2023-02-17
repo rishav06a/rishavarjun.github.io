@@ -1,7 +1,7 @@
 .footer {
   background-color: $dark-grey;
   color: $white-color;
-  padding: 4.8rem 0;
+  padding: 1.8rem 0;
 
   @include respond(phone) {
     border: 0px;
@@ -48,7 +48,7 @@
     font-size: 3rem;
     width: 5rem;
     height: 5rem;
-    margin: $default-font-size $default-font-size;
+    margin: 0.8rem;
     transition: all 0.2s ease-in;
 
     &:hover {
